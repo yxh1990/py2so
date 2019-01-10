@@ -74,4 +74,4 @@ else:
 module_list = list(getpy(basepath=currdir, parentpath=parentpath, excepts=(setupfile), delC=True))
 if os.path.exists(build_tmp_dir): shutil.rmtree(build_tmp_dir)
 
-print "complate! time:", time.time()-starttime, 's'
+print("complate! time: %s秒" %(time.time()-starttime))
